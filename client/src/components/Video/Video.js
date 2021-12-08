@@ -104,7 +104,10 @@ const Video = () => {
 
             <Avatar
               style={{
-                backgroundColor: "#116",
+                background: "#8e2de2",
+                background:
+                  "-webkit-linear-gradient(to right, #631eee, #8e2de2)",
+                background: "linear-gradient(to right, #631eee, #8e2de2)",
                 position: "absolute",
                 opacity: `${myVdoStatus ? "-1" : "2"}`,
               }}

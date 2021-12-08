@@ -107,20 +107,6 @@ const Options = () => {
             >
               <WhatsappIcon size={26} round />
             </WhatsappShareButton>
-            <FacebookShareButton
-              url={`https://video-chat-mihir.web.app/`}
-              title={`Join this meeting with the given code ""\n`}
-              className={classes.share_icon}
-            >
-              <FacebookIcon size={26} round />
-            </FacebookShareButton>
-            <TwitterShareButton
-              url={`https://video-chat-mihir.web.app/`}
-              title={`Join this meeting with the given code  \n`}
-              className={classes.share_icon}
-            >
-              <TwitterIcon size={26} round className={classes.share_border} />
-            </TwitterShareButton>
           </div>
         </div>
       </div>

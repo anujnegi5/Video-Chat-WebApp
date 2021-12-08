@@ -7,8 +7,10 @@
   max-width: 600px;
   background: #fefefe;
   padding: 0.5rem 1rem;
-  border-top: 5px solid dodgerblue;
+  border-top: 5px solid rgb(218, 30, 255);
+  box-shadow: 5px 7px 8px rgba(84, 60, 170, 0.575);
   border-radius: 0.25rem;
+  position: relative;
 }
 
 @media (max-width: 600px) {
@@ -78,6 +80,25 @@
   align-items: center;
   margin-top: 0.5rem;
 }
+.options button {
+  border-radius: 6px;
+}
+
+/* .share_options button {
+  background: #f953c6;
+  border-color: #f953c6;
+}
+.share_options button:hover,
+.share_options button:active,
+.share_options button:focus {
+  background: #d6149c;
+  border-color: #d6149c;
+  outline: none;
+}
+.share_options button:focus {
+  outline: 3px solid rgb(182, 36, 226) !important;
+} */
+
 .share_social {
   display: flex;
   /* margin-top: 1rem; */
